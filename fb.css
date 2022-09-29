@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    padding-top:72px;
+    padding-bottom:112px;
+    background-color:#f0f2f5;
+}
+
+.content{
+    margin:20px auto;
+    width:980px;
+    box-sizing: border-box;
+    height: 700px;
+}
+
+.L-content{  
+    width:500px;
+    box-sizing:border-box;
+    vertical-align:top;
+    padding-top:113px;
+}
+.R-content{
+    width:240px;
+    
+}
+
+.footer{
+    margin-top:2px;
+    height:100px;
+    background-color:white;
+}
+
+.content>div{
+    display:inline-block;
+}
+
+.fbo-help{
+    width:490px;
+    color:#333;
+    font-size:28px;
+    font-weight:500px;
+    box-sizing: border-box;
+    padding-top:20px;
+}
+
+.L-content>img{
+    height:106px;
+    width:302px;
+    margin:-28px;
+}
+
+.form{
+    width:376px;
+    background-color:#FFF;
+    padding:10px 15px;
+    height: 320px;
+    box-shadow:0 0 5px 1px grey ;
+    margin-left:34px;
+    margin-top:43px;
+    border:0px solid #f0f2f5;
+    border-radius:8px;
+}
+input{
+    width:100%;
+    font-size:17px;
+    box-sizing:border-box;
+    border-radius:7px;
+    padding:15px 10px;
+    margin:10px auto;
+    margin-top:3px;
+    border:1px solid #dddfe2;
+    outline:none;
+    color:black;
+
+
+
+}
+/*8
+input:hover{
+    border:solid 1px #1877F2;
+}
+*/
+input:focus{
+    border:solid 1px #1877f2;
+    color:grey;
+    box-shadow:0 0 2px #e7f3ff;
+}
+.loginbutton{
+    color:white;
+    background-color:#1877f2;
+    border:none;
+    height:50px;
+    width:100%;
+    border-radius: 6px;
+    margin-top:10px;
+    font-size:22px;
+    cursor:pointer;
+    margin-bottom:14px;
+}
+.forgottenpassword{
+    margin:120px;
+    text-decoration:none;
+    color:#1877f2;
+}
+.forgottenpassword:hover{
+    text-decoration:underline;
+}
+.divider-line{
+    width:100%;
+    height:1px;
+    margin-top:26px;
+    background-color:#d2d2d2;
+       
+}
+.createnewaccount > button{
+    background-color:#42b72a;
+    border:none;
+    width:200px;
+    height:45px;
+    margin-top:20px;
+    margin-left:86px;
+    border-radius:9px;
+    color:white;
+    font-size:18px;
+    margin-bottom: 50px;
+}
+
+.createPage{
+    color:black;
+    font-size:17px;
+    text-decoration:none;
+    font-weight:900;
+
+}
+
+.parag{
+    margin-left: 40px;
+}
+.footer>p{
+    font-weight:1000;
+    font-size:45px;
+    color:blue;
+    margin-left:369px;
+}
